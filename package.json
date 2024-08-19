@@ -1,15 +1,15 @@
 {
-  "name": "@day1co/fastpress",
-  "version": "0.0.1",
-  "author": "Day1Company",
+  "name": "@iolo/fastpress",
+  "version": "0.0.2",
+  "author": "Dongsu Jang",
   "description": "fast and simple static site generator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/day1co/fastpress.git"
+    "url": "https://github.com/iolo/fastpress.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "main": "lib/index.js",
   "bin": "lib/cli.js",
