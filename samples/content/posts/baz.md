@@ -3,7 +3,7 @@ layout: post
 title: baz
 date: 2022-07-01 23:00:00
 author: iolo
-tag: [foo, bar, baz, qux]
+tags: [foo, bar, baz, qux]
 ---
 # hello, world
 
