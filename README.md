@@ -80,6 +80,7 @@ module.exports = {
   - page.ejs
   - post.ejs
   - posts.ejs
+  - tags.ejs
   - ...
 ```
 

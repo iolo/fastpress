@@ -1,6 +1,6 @@
 {
   "name": "@iolo/fastpress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Dongsu Jang",
   "description": "fast and simple static site generator",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "commander": "^12.1.0",
     "ejs": "^3.1.10",
     "front-matter": "^4.0.2",
-    "marked": "^14.0.0",
-    "sass": "^1.77.8"
+    "marked": "^15.0.2",
+    "sass": "^1.81.0"
   }
 }
