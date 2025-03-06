@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "node ../lib/cli.mjs build",
+    "watch": "node ../lib/cli.mjs watch",
+    "serve": "npx serve out"
+  }
+}
