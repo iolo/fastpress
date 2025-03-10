@@ -1,0 +1,9 @@
+<h1>tag: <%= page.tag %></h1>
+<ul>
+<% for (const post of tags[page.tag]) { %>
+  <li>
+    <a href="<%- post.path %>"><%= post.title %></a>
+    <small><time datetime="<%= post.date.toISOString() %>"><%= post.date.toLocaleDateString() %></time></small>
+  </li>
+<% } %>
+</ul>

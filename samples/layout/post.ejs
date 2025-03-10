@@ -5,7 +5,7 @@
 <% if (page.author) { %>
 <div>author: <%= page.author %></div>
 <% } %>
-<% if (page.tag) { %>
-<div>tag: <% for (const tag of page.tag) { %><%= tag %><% } %></div>
+<% if (page.tags) { %>
+    <div>tags: <% for (const tag of page.tags) { %><a href="/tags/<%= tag %>"><%= tag %></a><% } %></div>
 <% } %>
-<div><%- page.content %></div>
+<div><%- page.main %></div>

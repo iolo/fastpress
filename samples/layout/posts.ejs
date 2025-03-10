@@ -1,5 +1,6 @@
+<h1>posts</h1>
 <ul>
-<% for (const post of posts) { %>
+<% for (const post of posts.sort((a,b)=>(a.date - b.date))) { %>
 <li>
   <a href="<%- post.path %>"><%= post.title %></a>
   <small><time datetime="<%= post.date.toISOString() %>"><%= post.date.toLocaleDateString() %></time></small>
